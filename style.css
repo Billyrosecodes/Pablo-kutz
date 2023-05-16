@@ -114,6 +114,7 @@ nav ul li{
         margin: 20px auto;
     }
     
+    
  }
  
     /* features */
@@ -157,9 +158,11 @@ nav ul li{
         width: 80%;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         align-items: center;
         text-align: center;
+        /* gap: 10px; */
+        justify-content: space-between;
     }
     .features{
         flex-basis: 50%;
@@ -172,6 +175,7 @@ nav ul li{
     .features-img img{
         width: 50%;
         border-radius: 10px;
+        
     }
     .features h1{
         text-align: left;
@@ -423,7 +427,7 @@ nav ul li{
         transform: translateY(-7px);
      }
      .social-links p{
-        font-size: 12px;
+        font-size: 15px;
         margin-top: 20px;
      }
 
@@ -434,5 +438,9 @@ nav ul li{
         }
         .footer-img{
             top: 25%;
+        }
+        .social-links .fa{
+            display: inline-block;
+            flex-basis: 100%;
         }
      }
